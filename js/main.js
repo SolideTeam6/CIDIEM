@@ -289,8 +289,8 @@ jQuery(function ($) {
 
 		map = new GMaps({
 			el: '#gmap',
-			lat: 32.3305419,
-			lng: 34.8743185,
+			lat: 28.71484,
+			lng: -106.09848,
 			scrollwheel:false,
 			zoom: 13,
 			zoomControl : true,
