@@ -26,7 +26,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
-<body>
+<body oncontextmenu='return false' onkeydown='return false'>
     <header id="navigation">
         <div class="navbar navbar-static-top" role="banner" style="background-color: rgba(0, 0, 0, 0.5);">
             <div class="container">
@@ -95,7 +95,9 @@ margin-left: 8%;">
                                     </div>
                                     <div class="overlay">
                                         <ul>
-                                            <li><a target="_blank" href="https://www.facebook.com/alberto.valles?fref=ts"><i class="fa fa-facebook"></i></a></li><br/>
+                                            <li><a target="_blank" href="https://www.facebook.com/alberto.valles?fref=ts"><i class="fa fa-facebook"></i></a></li>
+<li><a target="_blank" href="https://www.linkedin.com/in/alberto-valles-4a05b937?trk=extra_biz_connect_hb_upphoto"><i class="fa fa-linkedin"></i></a></li>
+<br/>
                                             <li><a href="#"><i class="fa fa-phone"> 614-1-12-75-76</i></a></li>
                                         </ul>
                                     </div>
@@ -137,7 +139,7 @@ margin-left: 8%;">
                                     <div class="overlay">
                                         <ul>
                                             <li><a href="#"><i class="fa fa-facebook"></i></a></li><br/>
-                                            <li><a href="#"><i class="fa fa-phone"> 614-2-49-31-54</i></a></li>
+                                            <li><a href="#"><i class="fa fa-phone"> 614-4-58-02-35</i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -176,37 +178,31 @@ margin-left: 8%;">
     </div><!--/Fun-Facts-->
 
     <footer id="footer">
-        <div class="text-center footer-top">
-            <div class="overlay-bg" style="background-color:rgba(0, 131, 239, 0.72);"></div>
-            <div class="container">
-                <h2>Quieres afiliarte con nosotros?</h2>
-                <a href="index.html#contact" class="btn btn-primary">Contactanos</a>
-            </div>
-        </div>
         <div class="footer-bottom" style="background-color: #2a373e;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <img src="images/logo/cidiem_side_w15x5.png" class="img-responsive" style="margin-top: 3%; width: 48%;">
+                    <div class="col-md-2">
+                        <img src="images/logo/cidiem_side_w15x5.png" class="img-responsive" style="margin-top: 7%; width: 100%;">
                     </div>
                     <div class="col-md-5">
                         <div class="footer-menu">
-                            <ul class="nav navbar-nav">
-                                <li><a href="politicas.html">MISIÓN, VISIÓN Y POLITICAS</a></li>
+                            <ul class="nav navbar-nav" style="margin-left: 9%;">
+                                <li><a href="politicas.html">MISI\D3N, VISI\D3N Y POLITICAS</a></li>
                                 <li><a href="#">AVISO DE PRIVACIDAD</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                         <div class="bottom-socials">
                             <ul>
                                 <li><a href="https://www.facebook.com/Cidiem-Centro-de-Investigaci%C3%B3n-Desarrollo-e-Innovaci%C3%B3n-Empresarial-1581116332208528/?fref=ts" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+				<li><a href="https://www.linkedin.com/company/10865495?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10865495%2Cidx%3A2-1-2%2CtarId%3A1468600467825%2Ctas%3Acidiem" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-1" style="margin-top: 3%;">
-                        <p>Solide <a href="http://solidemx.com" target="_blank"> <i style="color: crimson;" class="fa fa-cube"></i></a></p>
+                    <div class="col-md-1" style="margin-top: 3%; width: 11.333333%;">
+                        <p>By Solide<a href="http://solidemx.com" target="_blank"> <i style="color: crimson;" class="fa fa-cube fa-2x"></i></a></p>
                     </div>
                 </div>
             </div>
