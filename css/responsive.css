@@ -4,6 +4,11 @@
 		{
 			width: 200px;
 		}
+	
+	#footer .footer-bottom .container .col-md-1
+		{
+			width: 12.3%;
+		}
 }
 
 /* md */
@@ -20,6 +25,11 @@
 	#navigation .navbar .container .row .col-sm-10 nav
 		{
 			margin-right: 0px;
+		}
+	
+	#footer .footer-bottom .container .col-md-1
+		{
+			width: 13%;
 		}
 
 	#promotion img {
@@ -95,6 +105,33 @@
 		{
 			width: 103.333%;
 		}	
+	
+	#footer .footer-bottom .container .col-md-2 img
+		{
+			width: 40.333%;
+			margin-left: 30%;
+		}
+	
+	#footer .footer-bottom .container .col-md-5 div.footer-menu
+		{
+			margin-left: 25%;
+		}
+	
+	#footer .footer-bottom .container .col-md-5 div.footer-menu li a
+		{
+			font-size: 14px;
+		}
+	
+	#footer .footer-bottom .container .col-md-1
+		{
+			margin-left: 43%;
+			width: 20%;
+		}
+	
+	#contact .row .col-md-4 address
+		{
+			margin-left: 32%;
+		}
 
 	#onepage #navigation .navbar-right li a  {
 		padding:13px 5px;
@@ -107,13 +144,7 @@
 	#navigation .topbar-icons span i {
 		font-size:11px;
 	}
-	
-	/*#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand .image  img.img-responsive
-		{
-			width: 181px;
-			margin-left: 5%;
-		}
-*/
+
 	.carousel-caption h1 {
 		font-size:35px;
 	}
@@ -302,10 +333,15 @@
 
 }
 
-	@media (min-width: 330px) and (max-width: 755px) {
+	@media (min-width: 331px) and (max-width: 755px) {
 		#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand .image  img.img-responsive
 		{
 			width: 181px;
+		}
+
+		#contact .row .col-md-4 address
+		{
+			margin-left: 19%;
 		}
 	}
 
@@ -314,6 +350,11 @@
 		{
 			width: 181px;
 			margin-left: 5%;
+		}
+
+		#contact .row .col-md-4 address
+		{
+			margin-left: 4%;
 		}
 	}
 
@@ -361,6 +402,23 @@
 			margin-left: 5%;
 		}
 	
+	
+	#footer .footer-bottom .container .col-md-2 img
+		{
+			width: 35.333%;
+			margin-left: 30%;
+		}
+	
+	#footer .footer-bottom .container .col-md-5 div.footer-menu
+		{
+			margin-left: -2%;
+		}
+
+	#footer .footer-bottom .container .col-md-5 div.footer-menu li a
+		{
+			font-size: 14px;
+		}
+
 	#index2 #navigation .navbar-right {
 		background-color:rgba(0, 0, 0, 0.7);
 	}

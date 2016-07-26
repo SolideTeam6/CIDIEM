@@ -44,7 +44,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-sm-10">
                         <nav class="collapse navbar-collapse navbar-right">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="index.html" style="font-size: 13.5px">Home</a></li>
@@ -286,7 +286,7 @@
                 <div class="col-md-4">
                     <h2>Oficinas Chihuahua, Chih.</h2>
                     <br />
-                    <address style="margin-left: 20%;">
+                    <address>
                         <p style="text-align: left;"><strong><a href="https://www.google.com.mx/maps/place/CIDIEM/@28.7147487,-106.1007087,17z/data=!3m1!4b1!4m5!3m4!1s0x86ea43d9f1660465:0x89d4ec111acee753!8m2!3d28.714744!4d-106.09852?hl=es-419"><i style="color: #1683fd;" class="fa fa-map-marker fa-2x"></i></a>&nbsp;&nbsp; Av. Homero No. 3714, Frac. El Vergel</strong></p>
                         <br />
                         <p style="text-align: left;"><strong><i style="color: #1683fd;" class="fa fa-envelope fa-2x"></i>&nbsp;&nbsp; contacto@cidiemglobal.com</strong></p>
@@ -309,17 +309,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
-                        <img src="images/logo/cidiem_side_w15x5.png" class="img-responsive" style="margin-top: 7%; width: 100%;">
+                        <img src="images/logo/cidiem_side_w15x5.png" class="img-responsive" style="margin-top: 7%;">
                     </div>
                     <div class="col-md-5">
                         <div class="footer-menu">
-                            <ul class="nav navbar-nav" style="margin-left: 9%;">
+                            <ul class="nav navbar-nav">
                                 <li><a href="politicas.html">MISIÓN, VISIÓN Y POLITICAS</a></li>
                                 <li><a href="#">AVISO DE PRIVACIDAD</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" style="text-align: center;">
                         <div class="bottom-socials">
                             <ul>
                                 <li><a href="https://www.facebook.com/Cidiem-Centro-de-Investigaci%C3%B3n-Desarrollo-e-Innovaci%C3%B3n-Empresarial-1581116332208528/?fref=ts" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
@@ -328,7 +328,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-1" style="margin-top: 3%; width: 11.333333%;">
+                    <div class="col-md-1" style="margin-top: 3%;">
                         <p>By Solide<a href="http://solidemx.com" target="_blank"> <i style="color: crimson;" class="fa fa-cube fa-2x"></i></a></p>
                     </div>
                 </div>

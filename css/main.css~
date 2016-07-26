@@ -1,4 +1,50 @@
+/*
+  Theme Name: Doors2
+  Theme URL: http://demo.themeregion.com/doors-two
+  Author: ThemeRegion
+  Author URI: http://www.themeregion.com
+  Description: Multi-purpose Corporate Template
+  Version: 1.0
+*/
 
+/*=======================================================================
+[Table of contents]
+=========================================================================
+
+* Typography
+* Home
+* Service
+* Last Project
+* parallax promotion
+* Quote-section
+* Blog
+* Twitter
+* Clients
+* Footer
+* Testimonial
+* Join Us
+* Team-member
+* 404 Error
+* Coming Soon
+* Pricing Table
+* About US
+* Shop Page
+* Shop Details
+* Contact Us
+* index2
+* Landing Page
+* Main Blog 
+* Home Blog 
+* Home Shop
+* Onepage
+* Portfolio Details
+* Preset colors
+
+==========================================================================*/
+
+/*========================
+=======Typography=========
+==========================*/
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
