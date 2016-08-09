@@ -1,85 +1,4 @@
-/* lg */ 
-@media (min-width: 1200px) and (max-width: 1400px) {
-	#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand
-		{
-			width: 200px;
-		}
-	
-	#footer .footer-bottom .container .col-md-1
-		{
-			width: 12.3%;
-		}
-}
 
-/* md */
-@media (min-width: 992px) and (max-width: 1199px) {
-	#home-carousel .item.active img {
-		margin-top: -45px;
-	}
-	
-	#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand
-		{
-			width: 200px;
-		}	
-	
-	#navigation .navbar .container .row .col-sm-10 nav
-		{
-			margin-right: 0px;
-		}
-	
-	#footer .footer-bottom .container .col-md-1
-		{
-			width: 13%;
-		}
-
-	#promotion img {
-		margin-top: -37px;
-		transform: scale(1.1);
-	}
-	
-	.bottom-socials ul li a {
-		padding: 8px;
-	}
-	
-	.footer-menu li a {
-		padding:20px 7px;
-	}
-	
-	.post .post-content {
-		padding:20px;
-	}
-	.blog1 .post h2.entry-title {
-		font-size:24px;
-		margin-bottom:15px;
-	}
-	.blog1 .regu-news .post .post-content {
-		padding:45px;
-	}
-	.blog1 .sidebar .widget ul li, .blog1 .sidebar .widget ul li a {
-		font-size:12px;
-	}
-	.blog1 .sidebar .widget .entry-title {
-		font-size:18px;
-	}
-	.products ul li {
-		width:17%;
-	}
-	#promotion h1 {
-		font-size:35px;
-	}
-	#apps-footer {
-		margin-top:-100px;
-	}
-	#apps-footer .apss-footer-menu{
-		margin-right:25px;
-	}
-	.project .overlay h3 {
-		left:-120%;
-	}
-	#shop-carousel .carousel-indicators li {
-		width:170px;
-	}
-}
 
 /* sm */
 @media (min-width: 755px) and (max-width: 991px) {
@@ -95,17 +14,37 @@
 		{
 			margin-left: 281%;
 		}
-
-	#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand
-		{
-			width: 200px;
-		}
 	
 	#navigation .navbar .container .row .col-sm-10
 		{
 			width: 103.333%;
 		}	
+
+	#carousel-wrapper div div div div div div
+		{
+			margin-left: 14%;
+			margin-top: 8%;
+			width: 70%;
+		}
+
+	#carousel-wrapper div div div#ia div div div img#o
+		{
+			display:block;
+			margin-left: 10px;
+			width: 92%;
+		}
 	
+	#carousel-wrapper div div div#i div div.row
+		{
+			margin-top: -18%;
+		}
+
+	#carousel-wrapper div div div#i div div.row div
+		{
+			width: 84%;
+			margin-left: 10%; 
+		}	
+
 	#footer .footer-bottom .container .col-md-2 img
 		{
 			width: 40.333%;
@@ -126,11 +65,6 @@
 		{
 			margin-left: 43%;
 			width: 20%;
-		}
-	
-	#contact .row .col-md-4 address
-		{
-			margin-left: 32%;
 		}
 
 	#onepage #navigation .navbar-right li a  {
@@ -330,31 +264,590 @@
 	#shop-carousel .carousel-indicators li {
 		width:125px;
 	}
+		/* ---- modified ---- */
+	.navbar-brand
+	{
+		height:46px;
+		width: 200px;
+	}
+
+	.navbar-brand .image img#imm
+	{
+		margin-top: -2.8%;
+		margin-left: 9%;
+		width: 133px;
+	}
+
+	#contact .row .col-md-4 address p
+	{
+		text-align: center;
+	}
+
+	#navigation div div div.col-sm-2
+	{
+		width: 100%;
+		margin-left: 37%;
+	}
+
+	#navigation div div div.col-sm-10
+	{
+		width: 100%;
+	}
+
+	#navigation div div div.col-sm-10 nav
+	{
+		width: 100%;
+		margin-right: -2%;
+	}
+
+	#carousel-wrapper div div div#ia div div div div.purchased-button
+	{
+		width: 100%;
+		margin-top: -1%;
+		text-align: center;
+	}
+
+	#carousel-wrapper div div div#i div div div div.purchased-button
+	{
+		text-align: center;
+	}
+
+	#carousel-wrapper div div div#i div div.row div h1
+	{
+		text-align: center;
+	}
+	
+	#carousel-wrapper div div div#i div div.row div h2
+	{
+		text-align: center;
+	}
+
+	#carousel-wrapper div div div#i div div.row div p
+	{
+		text-align: center;
+	}	
+}
+
+/* lg */ 
+@media (min-width: 1200px) and (max-width: 1400px) {
+	#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand
+		{
+			width: 200px;
+		}
+	
+	#footer .footer-bottom .container .col-md-1
+		{
+			width: 12.3%;
+		}
+
+	#carousel-wrapper div div div#i div div.row
+	{
+		margin-top: -6%;
+	}
+
+	#carousel-wrapper div div div#i div div.row div h1
+	{
+		text-align: center;
+	}
+	
+	#carousel-wrapper div div div#i div div.row div h2
+	{
+		text-align: center;
+	}
+
+	#carousel-wrapper div div div#i div div.row div p
+	{
+		text-align: center;
+	}	
+
+	#carousel-wrapper div div div#ia div div div div.purchased-button
+	{
+		text-align: center;
+		width: 100%;
+	}
+
+	#carousel-wrapper div div div#i div div div div.purchased-button
+	{
+		text-align: center;
+		width: 100%;
+	}
+
+	.navbar-brand
+	{
+		height:46px;
+		width: 200px;
+	}
+
+	.navbar-brand .image img#imm
+	{
+		margin-top: -2.8%;
+		margin-left: 9%;
+		width: 133px;
+	}
+
+	#navigation .navbar .container .row .col-sm-2
+		{
+			margin-left: 15%;
+		}
+
+	#carousel-wrapper div div div div div div img#o
+		{
+			display:block;
+			width: 92%;
+		}
+
+	#carousel-wrapper div div div#ia div div div.col-sm-7
+		{
+			margin-top: 5%;
+		}
+
+	#carousel-wrapper div div div div div div img#z
+		{
+			display:none;
+		}
+
+	#carousel-wrapper div div div#i div div div.col-sm-5 img#a
+		{
+			margin-top:0%;
+		}
 
 }
 
-	@media (min-width: 331px) and (max-width: 755px) {
-		#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand .image  img.img-responsive
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#carousel-wrapper div div div#i div div.row
+	{
+		margin-top: -6%;
+	}
+
+	#carousel-wrapper div div div#i div div.row div h1
+	{
+		text-align: center;
+	}
+	
+	#carousel-wrapper div div div#i div div.row div h2
+	{
+		text-align: center;
+	}
+
+	#carousel-wrapper div div div#i div div.row div p
+	{
+		text-align: center;
+	}	
+
+	#carousel-wrapper div div div#ia div div div div.purchased-button
+	{
+		text-align: center;
+		width: 100%;
+	}
+
+	#carousel-wrapper div div div#i div div div div.purchased-button
+	{
+		text-align: center;
+		width: 100%;
+	}
+
+	#home-carousel .item.active img {
+		margin-top: -45px;
+	}
+	
+	.navbar-brand
+	{
+		height:46px;
+		width: 200px;
+	}
+
+	.navbar-brand .image img#imm
+	{
+		margin-top: -2.8%;
+		margin-left: 9%;
+		width: 133px;
+	}
+
+	#contact .row .col-md-4 address p
+	{
+		text-align: center;
+	}
+
+	#navigation div div div.col-sm-2
+	{
+		width: 100%;
+		margin-left: 37%;
+	}
+
+	#navigation div div div.col-sm-10
+	{
+		width: 100%;
+	}
+
+	#navigation div div div.col-sm-10 nav
+	{
+		width: 100%;
+		margin-right: -7.5%;
+	}
+	#navigation .navbar .container .row .col-sm-10 nav
 		{
-			width: 181px;
+			margin-right: -10%;
+			width: 100%;
 		}
 
-		#contact .row .col-md-4 address
+	/*#navigation .navbar .container .row .col-sm-2
 		{
+			margin-left: 15%;
+		}*/
+	
+	#footer .footer-bottom .container .col-md-1
+		{
+			width: 13%;
+		}
+
+	#carousel-wrapper div div div div div div
+		{
+			margin-top: 5%;
+		}
+
+	#carousel-wrapper div div div div div div img#o
+		{
+			display:block;
+			width: 92%;
+		}
+
+	#carousel-wrapper div div div div div div img#z
+		{
+			display:none;
+		}
+
+	#promotion img {
+		margin-top: -37px;
+		transform: scale(1.1);
+	}
+	
+	.bottom-socials ul li a {
+		padding: 8px;
+	}
+	
+	.footer-menu li a {
+		padding:20px 7px;
+	}
+	
+	.post .post-content {
+		padding:20px;
+	}
+	.blog1 .post h2.entry-title {
+		font-size:24px;
+		margin-bottom:15px;
+	}
+	.blog1 .regu-news .post .post-content {
+		padding:45px;
+	}
+	.blog1 .sidebar .widget ul li, .blog1 .sidebar .widget ul li a {
+		font-size:12px;
+	}
+	.blog1 .sidebar .widget .entry-title {
+		font-size:18px;
+	}
+	.products ul li {
+		width:17%;
+	}
+	#promotion h1 {
+		font-size:35px;
+	}
+	#apps-footer {
+		margin-top:-100px;
+	}
+	#apps-footer .apss-footer-menu{
+		margin-right:25px;
+	}
+	.project .overlay h3 {
+		left:-120%;
+	}
+	#shop-carousel .carousel-indicators li {
+		width:170px;
+	}
+}
+
+
+/*331 - 581*/	@media (min-width: 581px) and (max-width: 755px) {
+
+		.navbar-brand
+		{
+			height:46px;
+			width: 200px;
+		}
+
+		.navbar-brand .image img#imm
+		{
+			margin-top: -2.8%;
+			margin-left: 9%;
+			width: 133px;
+		}
+
+		#contact .row .col-md-4 address p
+		{
+			text-align: center;
+		}
+
+		#carousel-wrapper div div div#ia div div div img#o
+		{
+			display:block;
 			margin-left: 19%;
+			width: 62%;
+		}
+
+		#carousel-wrapper div div div#ia div div
+		{
+			margin-top: 11%;
+		}
+
+		#carousel-wrapper div div div#ia div div div div.purchased-button
+		{
+			width: 100%;
+			text-align: center;
+			margin-top: -1%;
+		}
+
+		#carousel-wrapper div div div#i div div div div.purchased-button
+		{
+			width: 100%;
+			text-align: center;
+			margin-top: -1%;
+		}	
+
+		#carousel-wrapper div div div#i div div.row div h1
+		{
+			text-align: center;
+		}
+		
+		#carousel-wrapper div div div#i div div.row div h2
+		{
+			text-align: center;
+		}
+
+		#carousel-wrapper div div div#i div div.row div p
+		{
+			text-align: center;
 		}
 	}
 
+/*#carousel-wrapper div div div#ia div div div img#o
+		{
+			display:none;
+		}
+
+		#carousel-wrapper div div div#ia div div div img#z
+		{
+			display:block;
+			width: 70%;
+			margin-left: 6%;
+		}
+@media (min-width: 331px) and (max-width: 481px) {
+		#carousel-wrapper div div div#ia div div div img#z
+		{
+			display:block;
+			width: 90%;
+			margin-left: 6%;
+		}
+}*/
+
+@media (min-width: 331px) and (max-width: 444px) {
+		.navbar-brand
+		{
+			height:46px;
+			width: 200px;
+		}
+
+		.navbar-brand .image img#imm
+		{
+			margin-top: -2.8%;
+			margin-left: 9%;
+			width: 133px;
+		}
+	
+		#carousel-wrapper div div div#i div div.row div h1
+		{
+			text-align: center;
+		}
+		
+		#carousel-wrapper div div div#i div div.row div h2
+		{
+			text-align: center;
+		}
+
+		#carousel-wrapper div div div#i div div.row div p
+		{
+			text-align: center;
+		}
+		
+		#carousel-wrapper div div div#i div div.row div div.purchased-button
+		{
+			width: 100%;
+			text-align: center;
+			margin-top: 0.5%;
+		}
+
+		#carousel-wrapper div div div#ia div div div img#z
+		{
+			display:block;
+			width: 90%;
+			margin-left: 5.3%;
+		}
+
+		#carousel-wrapper div div div#ia div div.row
+		{
+			margin-top: 20%;
+		}
+
+		#carousel-wrapper div div div#ia div div div p
+		{
+			display:none;
+		}
+
+		#carousel-wrapper div div div#ia div div.row div div.purchased-button
+		{
+			width: 100%;
+			text-align: center;
+			margin-top: 0.5%;
+		}
+}
+
+@media (min-width: 445px) and (max-width: 581px) {
+
+		#contact div.row div div.col-md-4 address p
+		{
+			text-align: center;
+		}
+
+		.navbar-brand
+		{
+			height:46px;
+			width: 200px;
+		}
+
+		.navbar-brand .image img#imm
+		{
+			margin-top: -2.8%;
+			margin-left: 9%;
+			width: 133px;
+		}
+	
+		#carousel-wrapper div div div#i div div.row div h1
+		{
+			text-align: center;
+		}
+		
+		#carousel-wrapper div div div#i div div.row div h2
+		{
+			text-align: center;
+		}
+
+		#carousel-wrapper div div div#i div div.row div p
+		{
+			text-align: center;
+		}
+		
+		#carousel-wrapper div div div#i div div.row div div.purchased-button
+		{
+			width: 100%;
+			text-align: center;
+			margin-top: 0.5%;
+		}
+
+		#carousel-wrapper div div div#ia div div div img#z
+		{
+			display:block;
+			width: 70%;
+			margin-left: 14.2%;
+		}
+
+		#carousel-wrapper div div div#ia div div.row
+		{
+			margin-top: 16%;
+		}
+
+		#carousel-wrapper div div div#ia div div div p
+		{
+			display:none;
+		}
+
+		#carousel-wrapper div div div#ia div div.row div div.purchased-button
+		{
+			width: 100%;
+			text-align: center;
+			margin-top: -4.5%;
+		}
+}
 @media (max-width: 330px) {
-		#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand .image  img.img-responsive
+
+		.navbar-brand .image img#imm
+		{
+			margin-top: -2.5%;
+			margin-left: 12%;
+			width: 147px;
+		}
+	
+
+		#carousel-wrapper div div div#ia div div.row div div.purchased-button
+		{
+/*----*/		margin-left: 16%;
+			margin-top: 0.5%;
+		}
+
+		#carousel-wrapper div div div#ia div div div{
+			margin-top:40%;
+
+		}
+
+		#carousel-wrapper div div div#ia div div div img#o
+		{
+			display:none;
+		}
+
+		#carousel-wrapper div div div#ia div div div img#z
+		{
+			display:block;
+		}
+
+		#carousel-wrapper div div div#ia div div div p
+		{
+			display:none;
+		}
+	
+	
+		.navbar-brand{
+		height:50px;
+width: 100%;
+	}
+		/*#navigation .navbar .container .row .col-sm-2 .navbar-header .navbar-brand .image  img.img-responsive
 		{
 			width: 181px;
 			margin-left: 5%;
-		}
+		}*/
 
 		#contact .row .col-md-4 address
 		{
 			margin-left: 4%;
+		}
+
+		#carousel-wrapper div div div#i div div.row div h1
+		{
+			text-align: center;
+		}
+		
+		#carousel-wrapper div div div#i div div.row div h2
+		{
+			text-align: center;
+		}
+
+		#carousel-wrapper div div div#i div div.row div p
+		{
+			text-align: center;
+		}
+
+		#carousel-wrapper div div div#i div div.row div div.purchased-button
+		{
+/*----*/
+			margin-left: 11.5%;
 		}
 	}
 
@@ -372,11 +865,7 @@
 	h3 {
 		font-size: 17px;
 	}
-	
-	/*===Home Page====*/
 
-	/*Navigation*/
-	
 	#navigation .topbar-icons {
 	  right: 95px;
 	  top: -35px;
@@ -429,8 +918,7 @@
 	ul.dropdown-menu-large> li {
 		margin-bottom:15px;
 	}
-	
-	/*Home Carousel*/
+
 	#home-carousel .item {
 		height:500px;
 	}
@@ -485,8 +973,7 @@
 		font-size: 14px;
 		margin-right: 10px;
 	}
-	
-	/*Service*/
+
 	.padding-top {
 		padding-top: 50px
 	}
@@ -516,7 +1003,7 @@
 	}
 	
 	.parallax-section {
-		min-height:370px;
+		min-height:287px;
 	}
 	
 	#promotion h1 {
@@ -546,6 +1033,7 @@
 	
 	.footer-top h2 {
 		font-size:24px;
+margin-top: 8%;
 	}
 	
 	.footer-menu ul li {
@@ -585,11 +1073,11 @@
 	.team-carousel-right{
 		margin-right: -50px;
 	}
-	/*Parallax*/
+
 	.parallax-content h1 {
 	  line-height: 30px;
 	}
-	/*Works*/
+
 	.portfolio-item {
 		width:50%;
 	}
@@ -615,8 +1103,7 @@
 		top: 22%;
 		font-size: 12px;
 	}
-	/*Blog*/
-	
+
 	.entry-content {
 	  padding: 10px 15px 15px;
 	}
@@ -635,7 +1122,7 @@
 	.post-date span {
 		font-size: 15px;
 	}
-	/*fun fact*/
+
 	#fun-fact .funs i {
 		font-size: 35px;
 		margin-bottom: 0;
@@ -648,7 +1135,6 @@
 		padding: 10px 50px 8px;
 	}
 
-	/*Clients*/
 	#clients {
 		overflow: hidden;
 	}
@@ -661,7 +1147,7 @@
 	.client-left, .client-right {
 		display: none;
 	}
-	/*Pricing Table*/
+
 	.pricing-table .col-sm-3 {
 		width: 50%;
 		float: left;
@@ -673,7 +1159,7 @@
 		font-size: 60px;
 		margin-bottom: 20px;
 	}
-	/*Contact*/
+
 	.contact-content .col-sm-4 {
 		margin-bottom: 35px;
 	}
@@ -953,7 +1439,7 @@
 	}
 }
 
-/* XS Portrait */
+/* XS Portrait 
 @media (max-width: 479px) {
 	
 	.client-content ul li {
@@ -1049,6 +1535,6 @@
 	.contact-info> .col-sm-3, 
 	.contact-info> .col-sm-6 {
 		width:100%;
-	}
+	}*/
 }
 

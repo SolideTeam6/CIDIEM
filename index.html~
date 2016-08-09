@@ -30,7 +30,6 @@
     <header id="navigation">
         <div class="navbar navbar-static-top" role="banner" style="background-color: rgba(0, 0, 0, 0.5);">
             <div class="container">
-                <div class="row">
                     <div class="col-sm-2">
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -40,7 +39,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="index.html">
-                                <div class="image"><img id="imm" style="margin-top: -2%; margin-left: 32px; max-width: 62%;" class="img-responsive" src="images/logo/cidiem_side_b15x5.png" alt="logo"></div>
+                                <div class="image"><img id="imm" class="img-responsive" src="images/logo/cidiem_side_b15x5.png" alt="logo"></div>
                             </a>
                         </div>
                     </div>
@@ -70,13 +69,14 @@
     <div id="carousel-wrapper">
         <div id="home-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/chihuahua.jpg)">
+                <div id="ia" class="item active" style="background-image: url(images/chihuahua.jpg); opacity: 0.8;">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-sm-7">
                                 <!--h1>You are entire </h1>
                                 <h2>creative world</h2-->
-                                <img style="width: 82%; margin-top: -10%;" src="images/logo/cidiem_side_w15x5.png" alt="">
+                                <img id="o" src="images/logo/cidiem_side_w15x5.png" alt="">
+				<img id="z" class="img-responsive" src="images/logo/cidiem_white_10.png" alt="" />
                                 <p style="text-align: center !important; font-size: 18px; font-weight: 700;">Centro de Investigación, Desarrollo e Innovación Empresarial</p>
                                 <div class="purchased-button">
                                     <a href="#service" class="btn btn-primary">Comenzemos!</a>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(images/tierra.png); opacity: 0.9;">
+                <div id="i" class="item" style="background-image: url(images/tierra.png); opacity: 0.9;">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-sm-7">
@@ -96,32 +96,15 @@
                                 <h2>afiliarte con nosotros</h2>
                                 <p style="font-weight: 700;">Dentro de la sección de afiliate te puedes dar de alta con nostros y al mismo tiempo formar parte de este centro de investigación..</p>
                                 <div class="purchased-button">
-                                    <a href="#" class="btn btn-primary">Afiliate ahora!!!</a>
+                                    <a href="#" class="btn btn-primary text-center">Afiliate ahora!!!</a>
                                 </div>
                             </div>
                             <div class="col-sm-5">
-                                <img class="img-responsive" src="images/logo/cidiem_white_10.png" alt="" />
+                                <img id="a" class="img-responsive" src="images/logo/cidiem_white_10.png" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--div class="item" style="background-image: url(images/home/bg/slider-bg3.jpg)">
-                    <div class="carousel-caption container">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <h1>8 de Julio del 2016 </h1>
-                                <h2>creative world</h2>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                                <div class="purchased-button">
-                                    <a href="#" class="btn btn-primary">Purchase Now</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-5">
-                                <img class="img-responsive" src="images/home/bg/man3.png" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div-->
                 <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
                 <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
             </div>
