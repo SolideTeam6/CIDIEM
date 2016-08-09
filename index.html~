@@ -26,7 +26,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!-- oncontextmenu='return false'/head-->
-<body>
+<body oncontextmenu='return false'>
     <header id="navigation">
         <div class="navbar navbar-static-top" role="banner" style="background-color: rgba(0, 0, 0, 0.5);">
             <div class="container">
@@ -270,11 +270,11 @@
                     <h2>Oficinas Chihuahua, Chih.</h2>
                     <br />
                     <address>
-                        <p style="text-align: left;"><strong><a href="https://www.google.com.mx/maps/place/CIDIEM/@28.7147487,-106.1007087,17z/data=!3m1!4b1!4m5!3m4!1s0x86ea43d9f1660465:0x89d4ec111acee753!8m2!3d28.714744!4d-106.09852?hl=es-419"><i style="color: #1683fd;" class="fa fa-map-marker fa-2x"></i></a>&nbsp;&nbsp; Av. Homero No. 3714, Frac. El Vergel</strong></p>
+                        <p><strong><a href="https://www.google.com.mx/maps/place/CIDIEM/@28.7147487,-106.1007087,17z/data=!3m1!4b1!4m5!3m4!1s0x86ea43d9f1660465:0x89d4ec111acee753!8m2!3d28.714744!4d-106.09852?hl=es-419"><i style="color: #1683fd;" class="fa fa-map-marker fa-2x"></i></a>&nbsp;&nbsp; Av. Homero No. 3714, Frac. El Vergel</strong></p>
                         <br />
-                        <p style="text-align: left;"><strong><i style="color: #1683fd;" class="fa fa-envelope fa-2x"></i>&nbsp;&nbsp; contacto@cidiemglobal.com</strong></p>
+                        <p><strong><i style="color: #1683fd;" class="fa fa-envelope fa-2x"></i>&nbsp;&nbsp; contacto@cidiemglobal.com</strong></p>
                         <br />
-                        <p style="text-align: left;"><strong><i style="color: #1683fd;" class="fa fa-phone fa-2x"></i>6144846422</strong></p>
+                        <p><strong><i style="color: #1683fd;" class="fa fa-phone fa-2x"></i>6144846422</strong></p>
                     </address>
                     <!--div class="row" >
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55999.83992171886!2d-106.1447905618698!3d28.689945887683965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea43b35db3fe2d%3A0x79a2e574a3f8c671!2sHermanos+Flores+%26+M%C3%A1rtires+Agraristas%2C+Francisco+Villa%2C+Chihuahua%2C+Chih.!5e0!3m2!1ses-419!2smx!4v1466536707669" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
