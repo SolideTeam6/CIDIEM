@@ -1282,6 +1282,27 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 40px;
 }
 
+.widget ul li:hover {
+	background-color: aliceblue;
+}
+
+
+.widget ul li a:active {
+	color:#337ab7;
+}
+/*    background-color: aliceblue;*/
+.widget ul li a:active {
+	border-color: #337ab7;
+}
+
+.widget ul li a.active {
+	color:#337ab7;
+}
+
+.widget ul li a.active {
+	border-color: #337ab7;
+}
+
 .bottom-socials {
 	margin-top: 28px;	
 }
