@@ -219,12 +219,12 @@
                 <div class="col-md-8">
                     <div class="contact-wrap">
                         <div class="status alert alert-success" style="display: none"></div>
-                        <form id="contactform" class="contact-form" name="contact-form" method="post" action="#">
+                        <form id="contactform" class="contact-form" name="frmContacto" method="post"  action="sendbymail.php">
                             <div class="response">&nbsp;</div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" name="contactname" class="form-control" required="required" placeholder="Nombre">
+                                        <input type="text" name="nombre" class="form-control" required="required" placeholder="Nombre">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -236,29 +236,29 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" name="subject" class="form-control" required="required" placeholder="Asunto">
+                                        <input type="text" name="asunto" class="form-control" required="required" placeholder="Asunto">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" name="Empresa" class="form-control" required="required" placeholder="Empresa">
+                                        <input type="text" name="empresa" class="form-control" required="required" placeholder="Empresa">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" name="Telefono" class="form-control" required="required" placeholder="Teléfono">
+                                        <input type="text" name="telefono" class="form-control" required="required" placeholder="Teléfono">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="7" placeholder="Mensaje"></textarea>
+                                        <textarea name="mensaje" id="message" required="required" class="form-control" rows="7" placeholder="Mensaje"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                                <button type="submit" value="Enviar" class="btn btn-primary">Enviar mensaje</button>
                             </div>
                         </form>
                     </div><!--/.row-->
