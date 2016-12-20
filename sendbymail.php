@@ -6,10 +6,13 @@ $email_to = "contacto@cidiemglobal.com";
 $email_subject = "Contacto CIDIEM";
 
 // Aquí se deberían validar los datos ingresados por el usuario
-if(!isset($_POST['nombre']) ||
+if(!isset($_POST['name']) ||
 !isset($_POST['email']) ||
-!isset($_POST['asunto']) ||
-!isset($_POST['empresa'])) {
+!isset($_POST['subject']) ||
+!isset($_POST['empresa']) ||
+!isset($_POST['phone']) ||
+!isset($_POST['message'])
+) {
 
 echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
 echo "Por favor, vuelva atrás y verifique la información ingresada<br />";
@@ -17,12 +20,12 @@ die();
 }
 
 $email_message = "Detalles del formulario de contacto:\n\n";
-$email_message .= "Nombre: " . $_POST['nombre'] . "\n"; //first_name
+$email_message .= "Nombre: " . $_POST['name'] . "\n"; //first_name
 $email_message .= "E-mail: " . $_POST['email'] . "\n";
-$email_message .= "Asunto: " . $_POST['asunto'] . "\n"; //telephone
+$email_message .= "Asunto: " . $_POST['subject'] . "\n"; //telephone
 $email_message .= "Empresa: " . $_POST['empresa'] . "\n";
-$email_message .= "Telefono: " . $_POST['telefono'] . "\n";
-$email_message .= "Mensaje: " . $_POST['mensaje'] . "\n\n";
+$email_message .= "Telefono: " . $_POST['phone'] . "\n";
+$email_message .= "Mensaje: " . $_POST['message'] . "\n\n";
 
 
 // Ahora se envía el e-mail usando la función mail() de PHP

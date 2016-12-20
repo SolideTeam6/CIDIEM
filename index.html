@@ -219,34 +219,34 @@
                 <div class="col-md-8">
                     <div class="contact-wrap">
                         <div class="status alert alert-success" style="display: none"></div>
-                        <form id="contactform" class="contact-form" name="frmContacto" method="post"  action="sendbymail.php">
+                        <form id="contactform" class="contact-form" name="frmContacto">
                             <div class="response">&nbsp;</div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" name="nombre" class="form-control" required="required" placeholder="Nombre">
+                                        <input type="text" name="nombre" class="form-control" required="required" placeholder="Nombre" id="name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control" required="required" placeholder="Email">
+                                        <input type="email" name="email" class="form-control" required="required" placeholder="Email" id="email">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" name="asunto" class="form-control" required="required" placeholder="Asunto">
+                                        <input type="text" name="asunto" class="form-control" required="required" placeholder="Asunto" id="subject">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" name="empresa" class="form-control" required="required" placeholder="Empresa">
+                                        <input type="text" name="empresa" class="form-control" required="required" placeholder="Empresa" id="empresa">
                                     </div>
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="text" name="telefono" class="form-control" required="required" placeholder="Teléfono">
+                                        <input type="text" name="telefono" class="form-control" required="required" placeholder="Teléfono" id="phone">
                                     </div>
                                 </div>
                             </div>
@@ -258,7 +258,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <button type="submit" value="Enviar" class="btn btn-primary">Enviar mensaje</button>
+                                <button type="submit" value="Enviar" id="submit_CONTACTO" class="btn btn-primary">Enviar mensaje</button>
                             </div>
                         </form>
                     </div><!--/.row-->
@@ -345,9 +345,34 @@
     <script type="text/javascript" src="js/main.js"></script>
 
     <script type="text/javascript">
-     /*   window.onload  = function() {
-            $('#myModal').modal('show');
-        }*/
-    </script>
+		window.onload = function () {
+			
+		    $('#submit_CONTACTO').click(function () {
+
+		        var name = $('#name').val();
+		        var message = $('#message').val();
+		        var email = $('#email').val();
+		        var subject = $('#subject').val();
+		        var phone = $('#phone').val();
+		        var empresa = $('#empresa').val();
+
+		        if (!name || !message || !email || !subject || !phone || !empresa)
+		            toastr.info('Existen campos vacios favor de llenarlos para continuar.');
+		        else {
+		            $.ajax({
+		                type: "POST",
+		                url: "sendbyemail.php",
+		                data: { name: name, message: message, email: email, subject: subject, phone: phone, empresa: empresa },
+		                success: function (data) {
+		                    toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+		                }
+		            });
+		        }
+
+		    });
+
+		 };
+</script>
+
 </body>
 </html>
