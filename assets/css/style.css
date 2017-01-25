@@ -1,58 +1,20 @@
 /*==============================================
-  Project:   Massive - Multipurpose Responsive Theme
-  Build:     Bootstrap 3+
-  Author:    ThemeBucket
+  Project:   CIDIEM
+  Author:    SolideMX Ing. Miguel Humberto Martínez Aguirre
  ===============================================*/
-/*==============================================
-  Table of Contents
 
-  0. tb preloader
-  1. import css files
-  2. typography
-  3. header
-  4. top mega menu
-  5. menu appear alt
-  6. floating menu
-  7. nav icon
-  8. nav link boxed
-  9. nav link border box
-  10. nav link border bottom
-  11. nav center align
-  12. nav bottom position
-  13. nav block left align
-  14. pre-defined >  margin top | margin bottom
-  15. body content
-  16. portfolio
-  17. portfolio with title
-  18. portfolio masonry
-  19. Isotope Filtering
-  20. portfolio details
-  21. portfolio nav
-  22. masonry grid
-  23. Flex Slider
-  24. slider revolution
-  25. maintenance
-  26. top bar
-  27. primary nav
-  28. countdown
-  29. bs slider
-  30. static banner
-  31. video banner
-  32. custom pagination
-  33. Product list
-  34. contact us
-  35. event page
-  36. magazine page
-  37. catering page
-  38. hotel page
-  39. app landing page
-  40. Slider Typist
-  41. Boxed View
-  42. scroll top
- ===============================================*/
 /*==============================================
  Pre Loader
  ===============================================*/
+
+#button_principal:hover{
+    background-color: #337ab7;
+}
+
+#boton_second_layer{
+    background-color: #337ab7;
+}
+
 #tb-preloader {
     position: fixed;
     z-index: 999999;
@@ -1111,7 +1073,20 @@ pre {
     border-radius: 0;
 }
 
+
+/*@media (min-width: 76ppx) and (max-width: 1300px)
+{
+    #logo_max_resolution {
+    display: none;
+    }
+}*/
+
 @media (max-width: 768px) {
+    /*#logo_min_resolution {
+    display: block;
+    }*/
+
+
     .wrapper {
         margin-top: 50px;
     }
@@ -1122,7 +1097,7 @@ pre {
         width: 100%;
         background: #fff;
         box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
-    }
+    } 
     .menuzord-responsive .menuzord-menu > li.nav-divider {
         display: none;
     }
@@ -6199,7 +6174,7 @@ Table of contents
         line-height: 40px;
     }
     ul.menuzord-menu {
-        background: #fff;
+        background: #000;
     }
     .login-box.gray-bg {
         margin-bottom: 20px;
@@ -6270,6 +6245,15 @@ Table of contents
 }
 
 @media screen and (max-width: 767px) {
+    #contanier_footer{
+            text-align: center;
+    }
+
+    #direccion{
+        text-align: center
+    }
+
+
     .page-title .breadcrumb {
         right: auto; 
         left: 15px;
@@ -6487,6 +6471,12 @@ Table of contents
     .intro-title p span {
         font-size: 20px;
     }
+
+    #boton_second_layer{
+        margin-top:-15% !important;
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
     .tp-caption .btn {
         padding: 5px;
         font-size: 10px;
@@ -6581,6 +6571,45 @@ Table of contents
    Phone
    ------------------------------- */
 @media screen and (max-width: 480px) {
+
+    #boton_second_layer{
+        margin-top: 30% !important;
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+
+    #logo_second_layer{
+        width: 80% !important;
+        height: 80% !important;
+        margin-top: -35%;
+        margin-left: -10%;
+    }
+
+    #text_2_second{
+        font-size: 35px;
+        margin-top: 30%;
+    }
+
+    #logo_principal{
+        width: 70% !important ;
+        height: 23.33% !important;
+        margin-top: -30%;
+        margin-left: 15%;
+    }
+
+    #texto_principal{
+         margin-top: -22%;
+        font-size: 40px;
+    }
+
+    #button_principal{
+        margin-top: 10%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+
     /*portfolio   grid*/
     .portfolio.col-2 .portfolio-item,
     .portfolio.col-3 .portfolio-item,
