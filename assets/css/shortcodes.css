@@ -1795,6 +1795,15 @@ dl.toggle.time-line:before {
     content: "";
     background: rgba(0, 131, 239, 0.72);
 }
+.post-parallax .dark-overlay2 {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(60, 60, 60, 0.72);
+}
 
 .post-parallax .container {
     /*z-index: 100;*/
