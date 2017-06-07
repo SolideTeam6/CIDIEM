@@ -6796,3 +6796,13 @@ Table of contents
  -moz-transform: rotate(180deg);
  transform: rotate(180deg);
 }
+.colab-ba{
+  font-size:28px;
+  color:white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+.colab-ba:hover{
+  color:rgba(0, 131, 239, 0.72);
+
+}
